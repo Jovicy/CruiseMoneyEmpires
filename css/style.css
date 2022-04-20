@@ -134,10 +134,12 @@ i {
     position: relative;
     text-align: left;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .quiz-box .option-container .options:focus {
     background: green;
+    color: #fff;
 }
 
 .option-container {
