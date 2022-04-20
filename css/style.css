@@ -142,6 +142,10 @@ i {
     color: #fff;
 }
 
+.quiz-box .option-container .options a {
+    text-decoration: none;
+}
+
 .option-container {
     display: flex;
     flex-direction: column;
