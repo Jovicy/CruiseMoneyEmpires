@@ -39,7 +39,8 @@ i {
     0% {
         transform: translateX(40px);
         opacity: 0;
-    } 
+    }
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -83,6 +84,7 @@ i {
 
 .btn {
     padding: 15px 45px;
+    width: 100%;
     background-color: #009688;
     color: #fff;
     border: none;
@@ -100,6 +102,7 @@ i {
     width: 100%;
     float: left;
 }
+
 .quiz-box .question-number {
     font-size: 18px;
     color: #009688;
@@ -150,12 +153,18 @@ i {
     display: flex;
     flex-direction: column;
     grid-gap: 3px;
+
+}
+
+.option-container p{
+    text-align: center;
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -165,6 +174,7 @@ i {
     0% {
         transform: translateX(-100%);
     }
+
     100% {
         transform: translateX(0%);
     }
