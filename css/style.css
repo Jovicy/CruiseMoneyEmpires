@@ -10,7 +10,11 @@
 body {
     margin: 0;
     font-size: 16px;
-    background-color: #009688;
+    height: 100vh;
+    background-image: url('../images/image-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -110,6 +114,21 @@ i {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     line-height: 25px;
+}
+
+.line p{
+    line-height: 35px;
+}
+
+.proof {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.proof img {
+    /* width: 150px; */
+    height: 250px;
 }
 
 .quiz-box .question-text {
@@ -244,6 +263,16 @@ i {
         display: flex;
         flex-direction: column;
         grid-gap: 10px;
+        text-align: center;
+    }
+
+    .proof {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .end {
         text-align: center;
     }
 
